@@ -23,6 +23,9 @@
     </figcaption>
 </div>
 
+## Updates
+* [24.11.06] Updated test data indices to remove overlaps with training indices.
+
 ## Description
 In this project, your goal is to implement a conditional diffusion model that generates sequential strokes to form a sketch. You will utilize user-captured sketch strokes, complete with timestamps, from 345 different object categories provided by the [Quick, Draw!](https://quickdraw.withgoogle.com/data/) dataset. Rather than generating the entire sketch at once, the focus should be on leveraging the sequential (or part-aware) stroke information for training the model, encouraging a stroke-by-stroke generation process that reflects how users naturally draw.
 
